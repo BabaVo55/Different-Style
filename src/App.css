@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .glow {
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+} */
+/* * {
+  border: 2px solid red
+} */
+
+.todoItem p {
+  flex: 1;
+}
+header input {
+  flex: 1;
+  border-radius: 14px;
+  outline: none;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  /* position: relative;
+  left: 20px; */
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 14px;
+  border-radius: 14px;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
